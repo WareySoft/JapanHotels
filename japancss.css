@@ -1,0 +1,619 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body,html {
+  weight: 100%;
+  height: 100%;
+  background-color:#DFDAE3;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+ul{ 
+
+  width: 60vw;
+  height: 9vh;
+  text-align:  center;
+  margin-left:  45vw;
+  color:white;
+
+}
+ul li {
+
+  display: inline-block;
+  cursor: pointer;
+  margin-left: 2vw;
+  font-size: 17px;
+  color:white;
+  margin-right: 2vw;
+  margin-top: 45px;
+
+
+
+}
+.title {
+  color:white;
+  margin-top: 13vw;
+  margin-left: 12vw;
+  font-size: 50px;
+
+}
+.textmenu {
+  padding: 100px 12%;
+  width: 37%;
+  float: left;
+  color: #FFF5EE;
+}
+#zagolovk {
+  background-image: url(Your-ultimate-guide-to-Tokyo-Japan1.webp);
+  height: 120%;
+  width: 100%;
+  background-size: cover;
+
+}
+
+.scrolltext {
+  color:white;
+  text-decoration: none;
+}
+
+.BlueBlock {
+  background-color: #9A40E0B5;
+  position: relative;
+  width: 100%;
+  height: 260px;
+}
+.textcity {
+  margin-top: 20vw;
+  margin-left: 10vw;
+  font-size: 33px;
+}
+.img{
+  float:left;
+  padding: 8px;
+}
+
+.directions {
+float: right;
+margin-right: 38%;
+font-size: 2vw;
+}
+.Plan {
+  float: right;
+  font-size: 45px;
+  margin-top:9vw;
+  margin-right: 19%;
+}
+.Plantext {
+  float: right;
+  font-size: 35px;
+  margin-right: 15%;
+  color: #332649A1;
+ ;
+}
+#square {
+  float: left;
+  height: 160px;
+  width: 160px;
+  border-radius: 23px;
+  margin-top: 180px;
+  margin-left: 80px;
+  background: #43195799;
+}
+
+#square1 {
+  float: left;
+  height: 160px;
+width: 160px;
+border-radius:23px;
+margin-top: 100px;
+margin-left: 100px;
+    background: #43195799;
+}
+
+#square2 {
+  float: right;
+  height: 160px;
+width: 160px;
+
+border-radius: 23px;
+margin-top: 100px;
+margin-right: 300px;
+    background: #43195799;
+}
+.icons3 {
+height: 10px;
+width: 10px;
+float: right;
+margin-top: 115px;
+margin-right: -25px;
+
+}
+.icons2 {
+  height: 10px;
+  width: 10px;
+  float: left;
+  margin-top: 122px;
+  margin-left: -135px;
+
+}
+.icons1 {
+height: 10px;
+width: 10px;
+float:left;
+margin-top: 200px;
+margin-left: -145px;
+
+}
+.texticons1 {
+float:left;
+height: 10px;
+width: 10px;
+font-size: 30px;
+margin-left: 40px;
+margin-top: 105px;
+
+}
+.texticons11 {
+  float:left;
+
+
+  font-size: 20px;
+  margin-left: -10px;
+  margin-top: 160px;
+  font-family: Lato;
+
+font-style: normal;
+font-weight: 5px;
+line-height: 5px;
+letter-spacing: -1px;
+
+
+
+}
+.texticons2 {
+  float:left;
+  height: 10px;
+  width: 20px;
+  font-size: 27px;
+  margin-left: 35px;
+  margin-top: 105px;
+}
+.texticons22 {
+  float:left;
+
+
+  font-size: 20px;
+  margin-left: -20px;
+  margin-top: 210px;
+  font-family: Lato;
+
+font-style: normal;
+font-weight: 5px;
+line-height: 5px;
+letter-spacing: -1px;
+}
+.texticons3 {
+  height: 10px;
+  width: 140px;
+  float: right;
+  font-size: 30px;
+  margin-top: 107px;
+  margin-right: -350px;
+}
+.texticons33 {
+  height: 10px;
+  width: 200px;
+  float: right;
+  font-size: 20px;
+  margin-top: 150px;
+  margin-right: -410px;
+}
+.clearplace {
+  float: right;
+  width: 100px;
+  height: 100px;
+  margin-top:20vw;
+}
+.ocean {
+float: left;
+height: 100%;
+width:100%;
+
+margin-top: 13vw;
+}
+
+
+
+
+.Customer {
+  float: left;
+  margin-left: -83vw;
+  margin-top: -15vw;
+  color: #102746;
+  font-size: 35px;
+}
+.Trusted {
+  float:left;
+  color: #0B132A;
+  font-size: 3vw;
+  width: 500;
+  margin-left: -70vw;
+  margin-top: -8vw;
+
+}
+.These {
+
+  float: left;
+  color: #332649;
+  font-size:25px;
+  margin-left: -73vw;
+ margin-top: -1vw;
+width: 62vw;
+}
+.great {
+  float: left;
+  color: #332649;
+  font-size:25px;
+  margin-left: -48vw;
+ margin-top: 2vw;
+width: 62vw;
+}
+#square4 {
+  float: left;
+  height: 230px;
+width: 400px;
+
+border-radius: 23px;
+
+    background: white;
+    margin-top: 30vw;
+    margin-left: 3vw;
+    border: 2px solid #6D4A7A
+
+}
+#square5 {
+  float: left;
+  height: 230px;
+width: 400px;
+
+border-radius: 23px;
+
+    background: white;
+    margin-top: 30vw;
+    margin-left: 90px;
+    border: 2px solid #6D4A7A
+
+}
+#square6 {
+  float: right ;
+  height: 230px;
+width: 400px;
+
+border-radius: 23px;
+
+    background: white;
+    margin-top: 30vw;
+    margin-right: -50px;
+    border: 2px solid #6D4A7A
+
+}
+.kvadrat {
+
+    float: left;
+
+  margin-top: 190px;
+  margin-left: -725px;
+      background: white;
+      height: 35px;
+    width: 110px;
+
+    border-radius: 17.5px;
+    border: 2px solid #A449EB;
+}
+.textinbox {
+  margin-left: 27px;
+  margin-top: 6px;
+  font-size: 20px;
+}
+.textot {
+margin-top: 120px;
+font-size: 16px;
+width: 340px;
+margin-left: 50px;
+
+}
+.textot1 {
+  margin-top: 120px;
+  font-size: 17px;
+  width: 310px;
+  height: 100px;
+  margin-left: 50px;
+}
+.textot2 {
+  font-size: 16px;
+  margin-top: 115px;
+  width: 310px;
+  height: 100px;
+  margin-left: 50px;
+}
+
+.photop {
+  float: left;
+  margin-top:-180px;
+  margin-left: 43px;
+}
+
+.namec {
+  float: left;
+  margin-top:-173px;
+  margin-left: 125px;
+  font-size: 18px;
+}
+
+
+.count {
+  float: left;
+  margin-top:-148px;
+  margin-left: 126px;
+  font-size: 14px;
+  color: #4F5665;
+}
+
+
+.numberr {
+  float: right;
+  font-size: 16px;
+  color:#0B132A;
+  margin-top: -173px;
+  margin-right: 68px;
+}
+
+.iconstar {
+  float: right;
+  font-size: 16px;
+  color:#0B132A;
+  margin-top: -173px;
+margin-right: 40px;
+}
+
+#anotherspace {
+  float: left;
+height: 20vw;
+width: 100%;
+
+
+}
+.japatour {
+  float: left;
+  width: 320px;
+  margin-top: 600px;
+  font-size: 18px;
+  height: 116px;
+  margin-left: 110px;
+  color:  #4F5665;
+
+}
+.Sign2 {
+  float: left;
+  margin-top: 450px;
+  margin-left: -315px;
+}
+.Product {
+  margin-top: 460px;
+  font-size: 18px;
+  margin-left: 800px;
+}
+.Engage {
+  margin-top: -21px;
+  font-size: 18px;
+  margin-left: 980px;
+}
+.Earn {
+  margin-top: -21px;
+  font-size: 18px;
+  margin-left: 1150px;
+}
+.Product1 {
+  float: right;
+  margin-top: 41px;
+  margin-right: 602px;
+  font-size: 15px;
+}
+.Product2 {
+  float: right;
+  margin-top: 20px;
+  margin-right: 618px;
+  font-size: 15px;
+}
+.Product3 {
+  float: right;
+  margin-top: 20px;
+  margin-right: 606px;
+  font-size: 15px;
+}
+.Product4 {
+
+    float: right;
+    margin-top: 20px;
+    margin-right: 620px;
+    font-size: 15px;
+}
+.Product5{
+  float: right;
+  margin-top: 20px;
+  margin-right: 599px;
+  font-size: 15px;
+}
+.Product6 {
+  float: right;
+  margin-top: 20px;
+  margin-right: 630px;
+  font-size: 15px;
+}
+
+.Engage1 {
+float: right;
+margin-right: -245px;
+margin-top: -171px;
+}
+.Engage2 {
+  float: right;
+  margin-right: -200px;
+  margin-top: -132px;
+}
+.Engage3 {
+
+  float: right;
+  margin-right: -205px;
+  margin-top: -98px;
+}
+.Engage4 {
+  float: right;
+  margin-right: -230px;
+  margin-top: -60px;
+
+}
+.Engage5 {
+  float: right;
+  margin-right: -263px;
+  margin-top: -20px;
+}
+.Engage6 {
+  float: right;
+  margin-right: -280px;
+  margin-top: 18px;
+}
+.Earn1 {
+  float: right;
+  margin-right: -395px;
+  margin-top: -173px;
+}
+.Earn2 {
+  float: right;
+  margin-right: -450px;
+  margin-top: -130px;
+}
+
+.oursocials{
+  float: left;
+  margin-top: 20px;
+}
+
+.copyright {
+  color: #AFB5C0;
+float: left;
+margin-top: 140px;
+margin-left: -320px;
+}
+
+#endspace {
+  background-image: url(Vector9.png);
+  width:100%;
+  height: 609px;
+  margin-top: 185vw;
+
+}
+#Spacemid {
+  background-image: url(Vector8.png);
+  width:100%;
+  height: 609px;
+  margin-top: -158vw;
+}
+.Mainicon {
+  float: left;
+  margin-top: -310px;
+  margin-left: -49vw;
+
+}
+
+
+
+/* Text Find Hotel  */
+.findhotel{
+  position: absolute;
+  margin-left: 45%;
+  margin-top: 30px;
+  color:#12005e;
+  text-decoration: underline;
+  font-family: Arial, Helvetica, sans-serif;
+  
+}
+
+/* Two seperate texts: From and To  */
+.fromTo{
+  position:absolute;
+  font-size: 25px;
+  color: white ;
+  font-family: Arial, Helvetica, sans-serif;
+}
+
+/* Select button */
+option{
+   color: black;
+}
+
+select {
+   border-radius: 10px;
+   flex: 1;
+   color:black;
+   font-size: 1em;
+   font-family: 'Open Sans', sans-serif;
+
+}
+
+.select1 {
+   position: absolute;
+   display: flex;
+   width: 280px;
+   height: 40px;
+   line-height: 40px;
+   overflow: hidden;
+   border-radius: 10px;
+   margin-left: 900px;
+   margin-top: 100px;
+}
+
+.select2 {
+   position: absolute;
+   display: flex;
+   width: 280px;
+   height: 40px;
+   line-height: 40px;
+   overflow: hidden;
+   border-radius: 10px;
+   margin-left: 400px;
+   margin-top: 100px;
+}
+
+
+/* Button */
+.button {
+  border: none;
+  color: white;
+  padding: 16px 32px;
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  margin: 4px 2px;
+  transition-duration: 0.4s;
+  cursor: pointer;
+  position: absolute;
+  border-radius: 10px;
+}
+
+.button1 {
+  background-color: white; 
+  color: black; 
+  border: 2px solid #008CBA;
+  margin-left: 46.5%;
+  margin-top: 175px;
+}
+
+.button1:hover {
+  background-color: #008CBA;
+  color: white;
+}
+
