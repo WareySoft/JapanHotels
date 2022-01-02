@@ -1,3 +1,3 @@
 SEARCH JAPAN HOTELS WEBSITE
 
-Founders: Musilimkhanov Nurtas
+Founders: Seitova Aigerim, Miras Kabykenov, Musilimkhanov Nurtas
