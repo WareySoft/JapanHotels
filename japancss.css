@@ -23,7 +23,6 @@ ul{
 ul li {
 
   display: inline-block;
-  cursor: pointer;
   margin-left: 2vw;
   font-size: 17px;
   color:white;
@@ -302,16 +301,15 @@ border-radius: 23px;
 }
 .kvadrat {
 
-    float: left;
-
+  float: left;
   margin-top: 190px;
   margin-left: -725px;
-      background: white;
-      height: 35px;
-    width: 110px;
+  background: white;
+  height: 35px;
+  width: 110px;
+  border-radius: 17.5px;
+  border: 2px solid #A449EB;
 
-    border-radius: 17.5px;
-    border: 2px solid #A449EB;
 }
 .textinbox {
   margin-left: 27px;
