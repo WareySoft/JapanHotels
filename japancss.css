@@ -11,306 +11,212 @@ body,html {
   overflow-x: hidden;
   scroll-behavior: smooth;
 }
-ul{ 
 
-  width: 60vw;
-  height: 9vh;
-  text-align:  center;
-  margin-left:  45vw;
-  color:white;
 
+li{
+  padding-left: 2em;
+  padding-top: 1.2em;
+  padding-right: 2em;
 }
-ul li {
 
-  display: inline-block;
-  margin-left: 2vw;
-  font-size: 17px;
-  color:white;
-  margin-right: 2vw;
-  margin-top: 45px;
-
-
-
+.nav-link {
+  color: white !important;
+  font-size: 110%;
 }
-.title {
-  color:white;
-  margin-top: 13vw;
-  margin-left: 12vw;
-  font-size: 50px;
 
+header .mainicon{
+  position:absolute;
+  margin-left: 2em;
 }
-.textmenu {
-  padding: 100px 12%;
-  width: 37%;
-  float: left;
-  color: #FFF5EE;
+
+.title{
+  margin-top: 12em;
 }
-#zagolovk {
-  background-image: url(Your-ultimate-guide-to-Tokyo-Japan1.webp);
-  height: 120%;
-  width: 100%;
+
+.titletext{
+  color: white;
+  text-shadow: 2px 2px  gray;
+  
+}
+
+.des{
+  color:#FFF5EE;
+  padding-top: 0.2em;
+  text-shadow: 2px 2px  gray;
+}
+
+#intro {
+  background: url(Your-ultimate-guide-to-Tokyo-Japan1.webp);
+  height: 100%;
   background-size: cover;
-
 }
 
-.scrolltext {
-  color:white;
-  text-decoration: none;
-}
-
-.BlueBlock {
+#purpleblock {
   background-color: #9A40E0B5;
-  position: relative;
-  width: 100%;
-  height: 260px;
+  background-size: cover;
 }
+
+.ocean{
+  
+  background-image: url(Vector8.png);
+  height: 100%;
+  background-size: cover;
+  margin-top: 15%;
+  padding-top:8%;
+   padding-bottom:8%;
+}
+
+.endpage {
+  background-image: url(Vector9.png);
+  height: 100%;
+  background-size: cover;
+  margin-top: 25%;
+
+}
+
+
+
 .textcity {
-  margin-top: 20vw;
+  margin-top: 10vw;
   margin-left: 10vw;
-  font-size: 33px;
+  font-size: 100%;
 }
-.img{
-  float:left;
-  padding: 8px;
-}
+
 
 .directions {
-float: right;
-margin-right: 38%;
-font-size: 2vw;
+  margin-left: 43%;
+  font-size: 2vw;
+  text-shadow: 2px 2px  gray;
 }
+
+/*image mosaic block*/
+.image-mosaic {
+  display: grid;
+  gap: 1rem;
+  grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
+  grid-auto-rows: 240px;
+}
+
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  background: #353535;
+  font-size: 3rem;
+  color: #fff;
+  box-shadow: rgba(3, 8, 20, 0.1) 0px 0.15rem 0.5rem, rgba(2, 8, 20, 0.1) 0px 0.075rem 0.175rem;
+  height: 100%;
+  width: 100%;
+  border-radius: 4px;
+  transition: all 500ms;
+  overflow: hidden;
+  background-size: cover;
+  background-position: center;
+  background-repeat: no-repeat;
+  padding: 0;
+  margin: 0;
+}
+
+@media screen and (min-width: 600px) {
+  .card-tall {
+    grid-row: span 2 / auto;
+  }
+
+  .card-wide {
+    grid-column: span 2 / auto;
+  }
+}
+
+.imgtext{
+  color:white;
+  font-family: 'Trebuchet MS', sans-serif;
+  text-shadow: 2px 2px  black;
+}
+
+
 .Plan {
-  float: right;
   font-size: 45px;
-  margin-top:9vw;
-  margin-right: 19%;
+  color:#06114f;
+  text-shadow: 1px 1px  #59515e;
+  
 }
 .Plantext {
-  float: right;
   font-size: 35px;
-  margin-right: 15%;
   color: #332649A1;
- ;
+  text-shadow: 1px 1px  #c7afde;
 }
-#square {
-  float: left;
+
+
+
+.square {
+
   height: 160px;
   width: 160px;
   border-radius: 23px;
-  margin-top: 180px;
-  margin-left: 80px;
   background: #43195799;
 }
 
-#square1 {
-  float: left;
-  height: 160px;
-width: 160px;
-border-radius:23px;
-margin-top: 100px;
-margin-left: 100px;
-    background: #43195799;
-}
 
-#square2 {
-  float: right;
-  height: 160px;
-width: 160px;
 
-border-radius: 23px;
-margin-top: 100px;
-margin-right: 300px;
-    background: #43195799;
-}
-.icons3 {
-height: 10px;
-width: 10px;
-float: right;
-margin-top: 115px;
-margin-right: -25px;
-
-}
-.icons2 {
+.icons {
   height: 10px;
   width: 10px;
-  float: left;
-  margin-top: 122px;
-  margin-left: -135px;
-
+  padding: 20px 0 0 15px;
 }
-.icons1 {
-height: 10px;
-width: 10px;
-float:left;
-margin-top: 200px;
-margin-left: -145px;
-
-}
-.texticons1 {
-float:left;
-height: 10px;
-width: 10px;
-font-size: 30px;
-margin-left: 40px;
-margin-top: 105px;
-
-}
-.texticons11 {
-  float:left;
-
-
-  font-size: 20px;
-  margin-left: -10px;
-  margin-top: 160px;
-  font-family: Lato;
-
-font-style: normal;
-font-weight: 5px;
-line-height: 5px;
-letter-spacing: -1px;
 
 
 
-}
-.texticons2 {
-  float:left;
-  height: 10px;
-  width: 20px;
-  font-size: 27px;
-  margin-left: 35px;
-  margin-top: 105px;
-}
-.texticons22 {
-  float:left;
-
-
-  font-size: 20px;
-  margin-left: -20px;
-  margin-top: 210px;
-  font-family: Lato;
-
-font-style: normal;
-font-weight: 5px;
-line-height: 5px;
-letter-spacing: -1px;
-}
-.texticons3 {
-  height: 10px;
-  width: 140px;
-  float: right;
-  font-size: 30px;
-  margin-top: 107px;
-  margin-right: -350px;
-}
-.texticons33 {
-  height: 10px;
-  width: 200px;
-  float: right;
-  font-size: 20px;
-  margin-top: 150px;
-  margin-right: -410px;
-}
 .clearplace {
-  float: right;
+
   width: 100px;
   height: 100px;
   margin-top:20vw;
 }
-.ocean {
-float: left;
-height: 100%;
-width:100%;
 
-margin-top: 13vw;
+
+
+.opinion{
+  margin-top: 10%;
 }
 
-
-
-
 .Customer {
-  float: left;
-  margin-left: -83vw;
-  margin-top: -15vw;
+  
   color: #102746;
   font-size: 35px;
 }
 .Trusted {
-  float:left;
   color: #0B132A;
   font-size: 3vw;
-  width: 500;
-  margin-left: -70vw;
-  margin-top: -8vw;
+  text-align: center;
+  
 
 }
-.These {
-
-  float: left;
+.these {
+  text-align: center;
   color: #332649;
   font-size:25px;
-  margin-left: -73vw;
- margin-top: -1vw;
-width: 62vw;
+  
 }
-.great {
-  float: left;
-  color: #332649;
-  font-size:25px;
-  margin-left: -48vw;
- margin-top: 2vw;
-width: 62vw;
+
+
+
+/*----------review section------------*/
+.review{
+  margin-top: 10%;
 }
-#square4 {
-  float: left;
+
+.boxx{
+ 
   height: 230px;
-width: 400px;
-
-border-radius: 23px;
-
-    background: white;
-    margin-top: 30vw;
-    margin-left: 3vw;
-    border: 2px solid #6D4A7A
-
-}
-#square5 {
-  float: left;
-  height: 230px;
-width: 400px;
-
-border-radius: 23px;
-
-    background: white;
-    margin-top: 30vw;
-    margin-left: 90px;
-    border: 2px solid #6D4A7A
-
-}
-#square6 {
-  float: right ;
-  height: 230px;
-width: 400px;
-
-border-radius: 23px;
-
-    background: white;
-    margin-top: 30vw;
-    margin-right: -50px;
-    border: 2px solid #6D4A7A
-
-}
-.kvadrat {
-
-  float: left;
-  margin-top: 190px;
-  margin-left: -725px;
+  width: 400px;
+  border-radius: 23px;
   background: white;
-  height: 35px;
-  width: 110px;
-  border-radius: 17.5px;
-  border: 2px solid #A449EB;
-
+  border: 2px solid #6D4A7A;
+  box-shadow: 10px 5px 5px gray;
 }
+
+
 .textinbox {
   margin-left: 27px;
   margin-top: 6px;
@@ -374,152 +280,43 @@ margin-left: 50px;
   font-size: 16px;
   color:#0B132A;
   margin-top: -173px;
-margin-right: 40px;
+  margin-right: 40px;
 }
 
-#anotherspace {
-  float: left;
-height: 20vw;
-width: 100%;
+/*----------------------------------------*/
 
 
-}
+
+
+
 .japatour {
-  float: left;
-  width: 320px;
-  margin-top: 600px;
+  width:60%;
   font-size: 18px;
-  height: 116px;
-  margin-left: 110px;
   color:  #4F5665;
-
-}
-.Sign2 {
-  float: left;
-  margin-top: 450px;
-  margin-left: -315px;
-}
-.Product {
-  margin-top: 460px;
-  font-size: 18px;
-  margin-left: 800px;
-}
-.Engage {
-  margin-top: -21px;
-  font-size: 18px;
-  margin-left: 980px;
-}
-.Earn {
-  margin-top: -21px;
-  font-size: 18px;
-  margin-left: 1150px;
-}
-.Product1 {
-  float: right;
-  margin-top: 41px;
-  margin-right: 602px;
-  font-size: 15px;
-}
-.Product2 {
-  float: right;
-  margin-top: 20px;
-  margin-right: 618px;
-  font-size: 15px;
-}
-.Product3 {
-  float: right;
-  margin-top: 20px;
-  margin-right: 606px;
-  font-size: 15px;
-}
-.Product4 {
-
-    float: right;
-    margin-top: 20px;
-    margin-right: 620px;
-    font-size: 15px;
-}
-.Product5{
-  float: right;
-  margin-top: 20px;
-  margin-right: 599px;
-  font-size: 15px;
-}
-.Product6 {
-  float: right;
-  margin-top: 20px;
-  margin-right: 630px;
-  font-size: 15px;
+  text-align:center;
+  margin: 10% 0 0 5vw;
 }
 
-.Engage1 {
-float: right;
-margin-right: -245px;
-margin-top: -171px;
-}
-.Engage2 {
-  float: right;
-  margin-right: -200px;
-  margin-top: -132px;
-}
-.Engage3 {
 
-  float: right;
-  margin-right: -205px;
-  margin-top: -98px;
-}
-.Engage4 {
-  float: right;
-  margin-right: -230px;
-  margin-top: -60px;
-
-}
-.Engage5 {
-  float: right;
-  margin-right: -263px;
-  margin-top: -20px;
-}
-.Engage6 {
-  float: right;
-  margin-right: -280px;
-  margin-top: 18px;
-}
-.Earn1 {
-  float: right;
-  margin-right: -395px;
-  margin-top: -173px;
-}
-.Earn2 {
-  float: right;
-  margin-right: -450px;
-  margin-top: -130px;
+.endicon{
+    margin-top: 20%;
+    margin-left: 30%;
 }
 
-.oursocials{
-  float: left;
-  margin-top: 20px;
+.social{
+  margin-left: 22%;
+  margin-top:5%;
 }
-
 .copyright {
+
   color: #AFB5C0;
-float: left;
-margin-top: 140px;
-margin-left: -320px;
+  text-align:center;
+  margin-right: 16%;
+  margin-top:5%;
 }
 
-#endspace {
-  background-image: url(Vector9.png);
-  width:100%;
-  height: 609px;
-  margin-top: 185vw;
 
-}
-#Spacemid {
-  background-image: url(Vector8.png);
-  width:100%;
-  height: 609px;
-  margin-top: -158vw;
-}
+
 .Mainicon {
   float: left;
   margin-top: -310px;
@@ -531,21 +328,21 @@ margin-left: -320px;
 
 /* Text Find Hotel  */
 .findhotel{
-  position: absolute;
-  margin-left: 45%;
-  margin-top: 30px;
+  margin-left: 42%;
+  margin-top: 2%;
   color:#12005e;
   text-decoration: underline;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px  #929394;
   
 }
 
 /* Two seperate texts: From and To  */
 .fromTo{
-  position:absolute;
   font-size: 25px;
   color: white ;
   font-family: Arial, Helvetica, sans-serif;
+  text-shadow: 2px 2px  gray;
 }
 
 /* Select button */
@@ -554,64 +351,10 @@ option{
 }
 
 select {
-   border-radius: 10px;
-   flex: 1;
-   color:black;
-   font-size: 1em;
    font-family: 'Open Sans', sans-serif;
 
 }
 
-.select1 {
-   position: absolute;
-   display: flex;
-   width: 280px;
-   height: 40px;
-   line-height: 40px;
-   overflow: hidden;
-   border-radius: 10px;
-   margin-left: 900px;
-   margin-top: 100px;
-}
-
-.select2 {
-   position: absolute;
-   display: flex;
-   width: 280px;
-   height: 40px;
-   line-height: 40px;
-   overflow: hidden;
-   border-radius: 10px;
-   margin-left: 400px;
-   margin-top: 100px;
-}
 
 
-/* Button */
-.button {
-  border: none;
-  color: white;
-  padding: 16px 32px;
-  text-align: center;
-  text-decoration: none;
-  font-size: 16px;
-  margin: 4px 2px;
-  transition-duration: 0.4s;
-  cursor: pointer;
-  position: absolute;
-  border-radius: 10px;
-}
-
-.button1 {
-  background-color: white; 
-  color: black; 
-  border: 2px solid #008CBA;
-  margin-left: 46.5%;
-  margin-top: 175px;
-}
-
-.button1:hover {
-  background-color: #008CBA;
-  color: white;
-}
 
