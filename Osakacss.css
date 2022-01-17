@@ -1,0 +1,53 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+
+body,html {;
+  weight: 100%;
+  height: 100%;
+  background-color:#DFDAE3;
+  overflow-x: hidden;
+  scroll-behavior: smooth;
+}
+#Body1{
+  background-image: url(Osaka.jpg);
+  height: 760px;
+  width: 100%;
+  background-size: cover;
+}
+
+.movetitle{
+  padding-top: 10%; 
+}
+
+.Maintext {
+  color: white;
+  font-size: 7vw;
+  margin-left: 7%;
+  text-shadow: 2px 2px gray;
+}
+
+.move{
+  padding-top: 7%;
+  padding-bottom: 7%;
+  background-color:#DFDAE3;
+}
+
+.Description {
+  color: white;
+  font-size: 20px;
+  text-align: center;
+
+}
+.Mainicon {
+  float: left;
+  margin-top: 2vw;
+  margin-left: 4vw;
+
+}
+
+
+
+
