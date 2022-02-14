@@ -12,7 +12,7 @@ body,html {;
   scroll-behavior: smooth;
 }
 #Body1{
-  background-image: url(tokyoimg.jpg);
+  background-image: url(niggata.jpg);
   height: 760px;
   width: 100%;
   background-size: cover;
@@ -36,7 +36,7 @@ body,html {;
 }
 
 .Description {
-  color: black;
+  color: white;
   font-size: 20px;
   text-align: center;
 
@@ -45,7 +45,7 @@ body,html {;
   float: left;
   margin-top: 2vw;
   margin-left: 4vw;
-
+  cursor: pointer;
 }
 
 

@@ -27,6 +27,7 @@ body,html {;
   font-size: 7vw;
   margin-left: 7%;
   text-shadow: 2px 2px gray;
+  
 }
 
 .move{
@@ -45,7 +46,7 @@ body,html {;
   float: left;
   margin-top: 2vw;
   margin-left: 4vw;
-
+  cursor: pointer;
 }
 
 

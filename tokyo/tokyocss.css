@@ -12,20 +12,20 @@ body,html {;
   scroll-behavior: smooth;
 }
 #Body1{
-  background-image: url(kyoto.jpg);
+  background-image: url(tokyoimg.jpg);
   height: 760px;
   width: 100%;
   background-size: cover;
 }
 
 .movetitle{
-  padding-top: 10%; 
+  padding-top: 5%; 
 }
 
 .Maintext {
   color: white;
   font-size: 7vw;
-  margin-left: 12%;
+  margin-left: 7%;
   text-shadow: 2px 2px gray;
 }
 
@@ -45,5 +45,7 @@ body,html {;
   float: left;
   margin-top: 2vw;
   margin-left: 4vw;
-
+  cursor: pointer;
 }
+
+

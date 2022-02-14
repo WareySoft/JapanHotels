@@ -12,20 +12,20 @@ body,html {;
   scroll-behavior: smooth;
 }
 #Body1{
-  background-image: url(niggata.jpg);
+  background-image: url(kyoto.jpg);
   height: 760px;
   width: 100%;
   background-size: cover;
 }
 
 .movetitle{
-  padding-top: 5%; 
+  padding-top: 10%; 
 }
 
 .Maintext {
   color: white;
   font-size: 7vw;
-  margin-left: 7%;
+  margin-left: 12%;
   text-shadow: 2px 2px gray;
 }
 
@@ -36,7 +36,7 @@ body,html {;
 }
 
 .Description {
-  color: white;
+  color: black;
   font-size: 20px;
   text-align: center;
 
@@ -45,7 +45,5 @@ body,html {;
   float: left;
   margin-top: 2vw;
   margin-left: 4vw;
-
+  cursor: pointer;
 }
-
-
