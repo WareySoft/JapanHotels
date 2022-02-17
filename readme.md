@@ -1,3 +1,3 @@
 SEARCH JAPAN HOTELS WEBSITE
 
-Founders: Seitova Aigerim, Miras Kabykenov, Musilimkhanov Nurtas
+Developers: Seitova Aigerim, Miras Kabykenov, Musilimkhanov Nurtas
