@@ -12,7 +12,7 @@ body,html {;
   scroll-behavior: smooth;
 }
 #Body1{
-  background-image: url(Osaka.jpg);
+  background:linear-gradient(to bottom, rgba(0,0,0,0) 60%, rgba(0,0,0,1)), url(Osaka.jpg);
   height: 760px;
   width: 100%;
   background-size: cover;
@@ -33,7 +33,12 @@ body,html {;
 .move{
   padding-top: 7%;
   padding-bottom: 7%;
-  background-color:#DFDAE3;
+  background:linear-gradient(to top , rgba(0,0,0,0) 95%, rgba(0,0,0,0.5));
+}
+
+#finfo{
+  background-color: rgba(0,0,0,.5); 
+  border-radius:23px;
 }
 
 .Description {

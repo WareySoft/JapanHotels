@@ -94,16 +94,18 @@
         <i></i>
         <i></i>
       </div>
-
+  
 <div id="intro" class="view"> 
  <div class="full-bg-img"> 
   <header>
     <div class="container-fluid">
+    
 	  <nav class="navbar navbar-expand-lg navbar-dark ">
-
 		  <a id="player" class="navbar-brand" href="#">
-		  	 <img src="Toriikaka.png" width="80" height="80" class="mainicon" alt="icon">
+		  	 <img src="Toriikaka.png" width="80" height="80" class="mainicon imaged" alt="icon">
+
 		  </a>
+		  
 
 		  <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
 		      <span class="navbar-toggler-icon"></span>
@@ -111,18 +113,20 @@
 
 	  	<div class="collapse navbar-collapse" id="navbarSupportedContent">
 	  	  <ul class="navbar-nav ml-auto">
-	   		<li class="nav-item"><a class="nav-link" href="#scrollTravel" > Travel </a> </li>
-	   		<li class="nav-item"><a class="nav-link" href="#scrollDiscover" > Discover </a> </li>
-	   		<li class="nav-item"><a class="nav-link" href="#scrollReviews" > Reviews</a></li>
-	  		<li class="nav-item"><a class="nav-link" href="#scrollContacts" > Contacts</a></li>
+	   		<li id="navt1" class="nav-item"><a class="nav-link" href="#scrollTravel" > Travel </a> </li>
+	   		<li id="navt2" class="nav-item"><a class="nav-link" href="#scrollDiscover" > Discover </a> </li>
+	   		<li id="navt3" class="nav-item"><a class="nav-link" href="#scrollReviews" > Reviews</a></li>
+	  		<li id="navt4" class="nav-item"><a class="nav-link" href="#scrollContacts" > Contacts</a></li>
 	  	  </ul>
 	  	 </div>
+
+
 	  </nav>
 	</div>
   </header>
 
-	<div class="title">
-		  <div class="container pt-5" style="margin-left: 10em;"> 
+	<div id="myDiv" class="title">
+		  <div class="container pt-5" style="margin-left: 8%;"> 
 
 		     <h1 class="titletext"> Discover Amazing hotels in Japan </h1>
 		     <hr size="3" width="55%" color="#ffffff" height="10px">
@@ -133,12 +137,13 @@
 		</div>
 </div>
 </div>
+<div id="snackbar">Press icon at the top of a page to feel Japan♡</div>
+<div class="superPurple" >
+<div class="parentPurple" >
 
-
-
-<div id="purpleblock" class="view"> 
-  <div class="full-bg-img"> 
-   <div class="container"> 
+<div id="purpleblock" class="findhotelt view container col-10"> 
+  <div class=" full-bg-img"> 
+   <div class=" container"> 
 	
   <div class="row pt-1">
     <h1 class = "findhotel" id="scrollTravel">Find Hotel</h1>
@@ -203,6 +208,7 @@
 </div>
 
 
+
  
 <!-- -------------------------------------------------------------------- -->
 
@@ -218,10 +224,11 @@
    <br>
 </div>
 
-
+</div>
+</div>
 <!-- -------------------------------------------------------------------------------- -->
-<div class="container col-10">
-	<div class="image-mosaic">
+<div id="images">
+	<div class="imaged container col-10 image-mosaic">
 		<div onclick="location.href='../tokyo/tokyohtml.html';"
 			class="card card-tall card-wide"
 			style="background-image: url(tokyo.jpg); cursor: pointer;"
@@ -270,7 +277,7 @@
 
 <!-----------------       START OCEAN BLOCK        -------------------->
 <div id="wave1" > 
-  <div class="full-bg-img">
+  <div class="full-bg-img squared">
 
 <div class="container-fluid ocean"> 
 	<div class="container col-8 Plan">
@@ -369,11 +376,11 @@
 
 
 <div class="opinion">
-	<div class="container">
-
+	<div class="review1 container">
+		<div class="squared">
 		<div class="Trusted" id="scrollReviews">
 	  		<p style="text-shadow: 1px 1px  gray;"><b>Trusted by 
-	  		sands of Happy Customers</b></p>
+	  		thousands of Happy Customers</b></p>
 	  		<hr size="2" width="100%" color="#9A40E0" height="15px">
 		</div>
 		<div class="these">
@@ -383,18 +390,19 @@
 	  		<p style="text-shadow: 1px 1px  gray;">great pleasure.</p>
 		</div>
 	</div>
+	</div>
 </div>
 
 
 <!----------------------- start of review section  ---------------------------->
 
-<div class="review">
+<div class="container col-12 review">
 
-	<div class="container-fluid">
+	<div class="container col-11">
 
-	  <div class="row">
-	    <div class="col-sm mt-3">
-	      	<div class="boxx m-auto">
+	  <div class="row col-12">
+	    <div class="square-wrapper1 col-sm mt-3" style="align:left">
+	      	<div class="boxx m-auto squared">
 	      		<div style="margin-top:-20px;">
 			  	<div class="textot">
 			    	<p>“Wow ... I am very happy that I used JAPANTOUR’S services, thanks to them there were no problems during my stay at the hotel. JAPANTOUR is always the best. "</p>
@@ -418,8 +426,8 @@
 			</div>
 	    </div>
 
-	    <div class="col-sm mt-3">
-	      	<div class="boxx m-auto">
+	    <div class="square-wrapper2 col-sm mt-3">
+	      	<div class="boxx m-auto squared">
 				<div class="textot1">
 			      	<p>"I like it because I love to travel far and without worrying about my safety, no matter what hotel I stay in."</p>
 			    </div>
@@ -441,8 +449,8 @@
 			</div>
 	    </div>
 
-	    <div class="col-sm mt-3">
-	       <div class="boxx m-auto">
+	    <div class="square-wrapper3 col-sm mt-3">
+	       <div class="boxx m-auto squared">
 			    <div class="textot2">
 					<p>“This service turned out to be very convenient and fast for my very busy schedule. Thank you JAPANTOUR for the quick service! </p>
 				</div>

@@ -30,7 +30,10 @@ header .mainicon{
 }
 
 .title{
-  margin-top: 12em;
+  margin-top: 10%;
+}
+#myDiv{
+  margin-left:2%;
 }
 
 .titletext{
@@ -48,7 +51,7 @@ header .mainicon{
 }
 
 #intro {
-  background: url(Your-ultimate-guide-to-Tokyo-Japan1.webp);
+  background:linear-gradient(to bottom, rgba(0,0,0,0.2) 40%, rgba(0,0,0,0.7)), url(Your-ultimate-guide-to-Tokyo-Japan1.webp);
   
   height: 100%;
   width:100%;
@@ -57,16 +60,28 @@ header .mainicon{
 }
 
 #purpleblock {
+
+  border-radius:  10px;
   background-color: #9A40E0B5;
+  background-color: rgb(154, 64, 224, 0.3);
   background-size: cover;
+  box-shadow: 5px 5px 5px rgb(154, 64, 224, 0.5);
+
 }
 
+.parentPurple{
+    background:linear-gradient(to top , rgba(0,0,0,0) 10%, rgba(95, 34, 169,0.6));
+    padding-top: 2%;
+}
+.superPurple{
+    background:linear-gradient(to top , rgba(0,0,0,0) 90%, rgba(0,0,0,0.5));
+}
 .ocean{
   
   background-image: url(Vector8.png);
   height: 100%;
   background-size: cover;
-  margin-top: 15%;
+  margin-top: 12%;
   padding-top:8%;
    padding-bottom:8%;
 }
@@ -82,13 +97,14 @@ header .mainicon{
 
 
 .textcity {
-  margin-top: 10vw;
-  margin-left: 10vw;
+  margin-top: 5%;
+  margin-left: 10%;
   font-size: 100%;
 }
 
 
 .directions {
+  margin-top: -4%;
   margin-left: 43%;
   font-size: 2vw;
   text-shadow: 2px 2px  gray;
@@ -100,6 +116,7 @@ header .mainicon{
   gap: 1rem;
   grid-template-columns: repeat(auto-fit, minmax(240px, 1fr));
   grid-auto-rows: 240px;
+  position: relative;
 }
 
 .card {
@@ -209,11 +226,11 @@ header .mainicon{
 /*----------review section------------*/
 .review{
   margin-top: 7%;
-
+  margin-left:1.3%;
 }
 
 .boxx{
- 
+  
   height: 230px;
   width: 400px;
   border-radius: 23px;
@@ -336,17 +353,17 @@ margin-left: 50px;
 .findhotel{
   margin-left: 42%;
   margin-top: 2%;
-  color:#12005e;
-  font-family: Arial, Helvetica, sans-serif;
+  color:#DCDCDC;
+  font-family: Georgia, serif;
   text-shadow: 2px 2px  #929394;
   
 }
 
 /* Two seperate texts: From and To  */
 .fromTo{
-  font-size: 25px;
+  font-size: 130%;
   color: white ;
-  font-family: Arial, Helvetica, sans-serif;
+  font-family: Georgia, serif;
   text-shadow: 2px 2px  gray;
 }
 
@@ -366,7 +383,7 @@ select {
 
 /* leaf animations */
 
-#leaves {position:absolute;top:-50px;width:100%;text-align: right;}
+#leaves {position:absolute;top:-50px;width:100%; text-align: right; }
 
 #leaves i {
     display: inline-block;
@@ -379,6 +396,7 @@ select {
     border: 1px solid rgb(148, 71, 138);
     z-index: 1;
     animation: falling 5s 0s infinite;
+
 }
 
 
@@ -403,6 +421,7 @@ select {
   border-right: 1px solid #222;
   background: linear-gradient(to right, rgb(231, 134, 215), #e46dd0);
   z-index: 1;
+
 }
 
 #leaves i:after {
@@ -518,4 +537,128 @@ select {
             rotate(0deg);
         opacity: 0;
     }
+}
+
+
+
+
+
+/*BOX ANIMATION USED IN REVIEWS*/
+@keyframes wipe-enter {
+  0% {
+    transform: translateY(50%);
+  }
+  50% {
+    transform: translateY(-5%);
+  }
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .square-animation  {
+    animation-name: wipe-enter;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    opacity: 1;
+  }
+
+
+
+
+
+@keyframes image-enter {
+  0% {
+    transform: scale(0.95 , 1);
+    opacity: 0.6;
+  }
+  50% {
+    transform: scale(1, 1);
+    opacity: 0.9;
+  }
+
+}
+
+@media (prefers-reduced-motion: no-preference) {
+  .image-animation  {
+    animation-name: image-enter;
+    animation-duration: 3s;
+    animation-iteration-count: 1;
+  }
+
+
+
+
+
+
+  @keyframes wipe-enter {
+  0% {
+    transform: translateY(20%);
+  }
+  50% {
+    transform: translateY(-2%);
+  }
+
+}
+
+
+@media (prefers-reduced-motion: no-preference) {
+  .square-animation2  {
+    animation-name: wipe-enter;
+    animation-duration: 1.5s;
+    animation-iteration-count: 1;
+    opacity: 1;
+  }
+
+
+
+
+
+
+
+
+
+
+
+  /*SNACKBAR*/
+  #snackbar {
+  visibility: hidden;
+  min-width: 250px;
+  margin-left: -190px;
+  background-color: rgb(51, 51, 51,0.8);
+  color: #fff;
+  text-align: center;
+  border-radius: 2px;
+  padding: 16px;
+  position: fixed;
+  z-index: 1;
+  left: 50%;
+  bottom: 30px;
+  font-size: 17px;
+}
+
+#snackbar.show {
+  visibility: visible;
+  animation: fadein 0.5s, fadeout 0.5s 10s;
+  animation: fadein 0.5s, fadeout 0.5s 10s;
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;} 
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadein {
+  from {bottom: 0; opacity: 0;}
+  to {bottom: 30px; opacity: 1;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;} 
+  to {bottom: 0; opacity: 0;}
+}
+
+@keyframes fadeout {
+  from {bottom: 30px; opacity: 1;}
+  to {bottom: 0; opacity: 0;}
 }
