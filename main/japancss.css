@@ -2,7 +2,7 @@
   margin: 0;
   padding: 0;
 }
-
+ 
 
 body,html {
   weight: 100%;
@@ -23,6 +23,13 @@ li{
   color: white !important;
   font-size: 110%;
 }
+
+
+    .navbar-nav{
+        text-align: center;
+
+    }
+
 
 header .mainicon{
   position:absolute;
@@ -327,7 +334,7 @@ margin-left: 50px;
 }
 
 .social{
-  margin-left: 22%;
+  margin-left: 17%;
   margin-top:5%;
 }
 .copyright {
@@ -570,11 +577,11 @@ select {
 @keyframes image-enter {
   0% {
     transform: scale(0.95 , 1);
-    opacity: 0.6;
+    opacity: 0.7;
   }
-  50% {
+  20% {
     transform: scale(1, 1);
-    opacity: 0.9;
+    opacity: 1;
   }
 
 }
@@ -582,7 +589,7 @@ select {
 @media (prefers-reduced-motion: no-preference) {
   .image-animation  {
     animation-name: image-enter;
-    animation-duration: 3s;
+    animation-duration: 4s;
     animation-iteration-count: 1;
   }
 
