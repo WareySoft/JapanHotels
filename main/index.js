@@ -25,14 +25,19 @@ $("#player").click(function() {
   x++;
 });
 
-$(document).ready(function () { 
-    
-   $('#myDiv').animate({ 
-            height: '100%', 
-            width: '1200px' 
-        }, 
-        1000); 
-});
+ $(document).keydown(function(e){
+    if(e.keyCode == 13){
+      if(x%2 == 0){
+        audio.play();
+        
+      }else{
+        audio.pause();
+      }
+      x++;
+    }
+
+  });
+
  
 
 

@@ -10,7 +10,7 @@
     <link rel="stylesheet" type="text/css" href="japancss.css">
     <!-- Favicon -->
     <link rel="icon" type="image/x-icon" href="japangate.png">
-
+    <link rel="stylesheet" href="https://unpkg.com/aos@next/dist/aos.css" />
     <!-- Script for scrolling to top of page when refreshing -->
     <script>
      	window.onload = function(){
@@ -128,9 +128,9 @@
 	<div id="myDiv" class="title">
 		  <div class="container pt-5" style="margin-left: 8%;"> 
 
-		     <h1 class="titletext"> Discover Amazing hotels in Japan </h1>
+		     <h1 class="titletext" data-aos="fade-up"> Discover Amazing hotels in Japan </h1>
 		     <hr size="3" width="55%" color="#ffffff" height="10px">
-				<p class="des">Japan is one of the most stunning places in the world. The country offers a full range of		   		nature and culture, from subtropical beaches to snowy mountains,
+				<p class="des"  data-aos="fade-up">Japan is one of the most stunning places in the world. The country offers a full range of		   		nature and culture, from subtropical beaches to snowy mountains,
 		   		futuristic skylines to ancient temples.</p>
 		    
 		   </div>
@@ -602,5 +602,9 @@
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
 <script src="index.js"></script>
+<script src="https://unpkg.com/aos@next/dist/aos.js"></script> 
+<script> 
+  AOS.init(); 
+</script> 
 </body>
 </html>
